@@ -1,0 +1,25 @@
+.badge {
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 50rem !important;
+  background-color: #6c757d !important;
+  margin-right: 5px;
+
+  a.delete {
+    padding-left: 5px;
+    font-size: 0.74em;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .clear {
+    padding-left: 5px;
+  }
+}

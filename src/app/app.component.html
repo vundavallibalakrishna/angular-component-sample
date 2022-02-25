@@ -1,0 +1,8 @@
+<hello [items]="['a', 'b', 'c', 'd']" [onDelete]="onDeleted"></hello>
+
+<div *ngIf="deleted.length > 0">
+  Deleted =
+  <span *ngFor="let item of deleted; let i = index" class="badge">
+    {{ item }}
+  </span>
+</div>

@@ -1,0 +1,7 @@
+<span *ngFor="let item of items; let i = index" class="badge">
+  {{ item }}
+  <a href="javascript:;" (click)="deleteItem(i)" class="delete">X</a>
+</span>
+<span class="clear" *ngIf="items.length > 0">
+  <a href="javascript:;" (click)="deleteAll()" class="delete">Clear</a>
+</span>
