@@ -10,8 +10,8 @@ export class AppComponent {
   newList: string[];
   deleted: string[];
 
-  public onDeleted(newList: string[], deleted: string[]) {
+  public onDeleted = (newList: string[], deleted: string[]) => {
     this.newList = newList;
     this.deleted = deleted;
-  }
+  };
 }

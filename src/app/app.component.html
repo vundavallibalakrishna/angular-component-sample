@@ -1,8 +1,13 @@
 <hello [items]="['a', 'b', 'c', 'd']" [onDelete]="onDeleted"></hello>
-
-<div *ngIf="deleted.length > 0">
-  Deleted =
+<br />
+<div *ngIf="deleted">
+  Deleted = [
   <span *ngFor="let item of deleted; let i = index" class="badge">
-    {{ item }}
-  </span>
+    {{ item }} </span
+  >]
+  <br />
+  New List =[
+  <span *ngFor="let item of newList; let i = index" class="badge">
+    {{ item }} </span
+  >]
 </div>
